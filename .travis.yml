@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.2.1
+  - jruby-9.0.0.0.rc2
+  - rbx
+before_install: gem install bundler -v 1.10.3
+addons:
+  code_climate:
+    repo_token: aac8be442c19e364416afd19427d513e03e033ad7809283de4c705f9d14b461a
